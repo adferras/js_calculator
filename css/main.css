@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+.big {
+  float: right;
+  height: 77px;
+  margin-right: 27px;
+  margin-left: -22px;
+}
+body {
+  background-color: #999696;
+
+}
+button {
+  width: 45px;
+  height: 38px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  outline: none;
+}
+
+.calc {
+  font-family: 'Open Sans Condensed';
+  margin: auto;
+  width: 250px;
+  height: 370px;
+  border: 1px gray solid;
+  border-radius: 30px;
+  background-color: #D9D4D4;
+  text-align: center;
+  box-shadow: inset 5px 0 10px 0px gray, inset -5px 0 10px 0px gray, inset 0px 0 10px 0px gray, 0 0 1px 2px #525151, 0 10px 20px 0 gray;
+}
+
+.control {
+  background-color: #B54C4C;
+}
+
+h3 {
+  font-family: 'Lobster';
+  font-size: 1.5em;
+  margin-bottom: -15px;
+}
+#result {
+  margin: auto;
+  width: 173px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #89AB8E;
+  font-size: 2em;
+  text-align: right;
+  line-height: 35px;
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
